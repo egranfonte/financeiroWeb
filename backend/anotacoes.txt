@@ -1,0 +1,78 @@
+//criar pastas
+>mkdir CursoFramesWeb && cd CursoFramesWeb
+> mkdir backend && cd backend
+>npm init ( de index.js para loader.js)
+//instalar as dependencias
+>npm install express body-parser mongoose node-restful mongoose-paginate lodash express-query-int pm2 --save
+//sempre deixa a aplicação no ar ( desenvolvimento)
+>npm install nodemon --save-dev
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//sobre a chave git
+https://git-scm.com/book/pt-br/v1/Git-no-Servidor-Gerando-Sua-Chave-P%C3%BAblica-SSH
+> ls -al ~/.ssh
+> ssh-keygen -t rsa -b 4096 -C "egranfont@gmail.com"
+> cat ~/.ssh/id_rsa.pub
+
+
+//git
+>git config --global user.name "Alfredo Egranfonte"
+>git config --global user.email "egranfont@gmail.com"
+>git init
+//testar ssh
+>ssh -vT git@github.com
+>git remote add origin git@github.com:egranfonte/cursoFramesWeb.git
+>git add .
+> git commit -m " Primeiro commit - envio do projeto"
+>git push -u origin master
+
+
+
+
+λ git status
+λ git checkout master
+λ git add anotacoes.txt
+λ git commit -m "adicionado comando git.txt"
+λ git push -u origin master
+
+/*
+POST ( postman)
+name: Março/17
+month: 3
+year: 2018
+credits[0][name]:Salario Empresa
+credits[0][value]:6500
+credits[1][name]:Salario Professor
+credits[1][value]:2700
+debts[0][name]:Telefone
+debts[0][value]:50
+debts[0][status]:PAGO
+debts[1][name]:Combustivel
+debts[1][value]:50
+debts[1][status]:PAGO
+*/
