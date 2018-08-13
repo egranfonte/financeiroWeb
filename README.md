@@ -1,8 +1,16 @@
 
-# Mongo, Express, Angular e Node - Controle Financeiro
+# Controle Financeiro - Mongo, Express, Angular e Node
+
+## Status de desenvolvimento
+### Instalação e configuração
+NodeJs: instalação ok
+Mongo: instalação ok 
+### Desenvolvimento aplicação
+Backend: concluido 
+Frontend: em andamento...
 
 ## Sobre
-Realizar o controle financeiro através de uma aplicação web totoalmente desenvolvida em Javascript.
+Realizar o controle financeiro através de uma aplicação web  desenvolvida em Javascript.
 Utilizando MongoDB, Express, Angular e NodeJS.
 
 ## Configuração
