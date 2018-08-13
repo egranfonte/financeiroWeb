@@ -15,12 +15,11 @@ gulp.task('watch', function() {
 })
 
 gulp.task('server', ['watch'], function () {
-  return gulp.src('public'.pipe(webserver({
+  return gulp.src('public').pipe(webserver({
     livereload: true,
     port: 4000,
     open: true
-  })))
+  }))
 })
-
 
 
