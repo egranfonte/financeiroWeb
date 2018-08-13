@@ -24,4 +24,26 @@ editar o arquivo package.json e incluir as dependencias
   }
   '''
 
+criar arquivo: glpFile.js  
+```
+const gulp = require('gulp')
+const util = require('gulp-util')
+const sequence = require('run-sequence')
+
+require('./gulpTasks/app')
+require('./gulpTasks/deps')
+require('./gulpTasks/server')
+
+gulp.task('default', () => {
+    if(util.env.production){
+        sequence('deps','app')
+    } else {
+        sequence('deps','app','server')
+    }
+})
+
+```
+
+criar pasta: mkdir gulpTaks
+criar arquivos: gulpTaks/app.js, gulpTaks/deps.js, gulpTaks/server.js
   
