@@ -7,9 +7,10 @@ Sistema de Controle Finceiro
 
 
 ### Requisitos 
-NodeJS
-MongoDB
-Express
-Angular
+
++ MongoDB – Banco de dados orientado a documentos
++ Express – Framework de desenvolvimento web para Node
++ AngularJS – Framework MVC para JavaScript
++ Node.js – Ambiente de execução JavaScript
 
 Email [egranfont@gmail.com](egranfont@gmail.com)
