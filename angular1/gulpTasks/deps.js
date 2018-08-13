@@ -4,7 +4,7 @@ const uglify = require('gulp-uglify')
 const uglifycss = require('gulp-uglifycss')
 const concat = require('gulp-concat')
 //Nova tarefa através do ´gulp.task´ com o nome 'deps', importante a sequence
-gulp.task('deps',['deps.js', 'deps.css','deps.assets'])
+gulp.task('deps',['deps.js', 'deps.css','deps.fonts'])
 
 // Nova tarefa através do ´gulp.task´ com o nome 'deps.js'
 // Carregar os arquivos que a gente quer rodar as tarefas com o `gulp.src`

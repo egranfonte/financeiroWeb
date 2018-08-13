@@ -1,7 +1,6 @@
 
 // Carregar gulp e os plugins através da função `require` do nodejs
 const gulp = require ('gulp')
-
 const babel = require('gulp-babel')
 const uglify = require('gulp-uglify')
 const uglifycss = require('gulp-uglifycss')
