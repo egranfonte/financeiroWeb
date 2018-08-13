@@ -1,4 +1,4 @@
-angular.module('primeiraApp', [
+angular.module('financeiroWeb', [
     'ui.router',
     'ngAnimate',
     'toastr'

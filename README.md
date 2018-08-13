@@ -4,7 +4,7 @@
 
 
 ## Sobre
-Realizar o controle financeiro através de uma aplicação web  desenvolvida em Javascript.
+Realizar o controle financeiro através de uma aplicação web desenvolvida em Javascript.
 Utilizando MongoDB, Express, Angular e NodeJS.
 
 ## Configuração
