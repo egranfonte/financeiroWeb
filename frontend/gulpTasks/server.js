@@ -17,7 +17,8 @@ gulp.task('watch', function() {
 gulp.task('server', ['watch'], function () {
   return gulp.src('public').pipe(webserver({
     livereload: true,
-    port: 4000,
+    //host: 'egranfonte.sytes.net',
+    port: 80,
     open: true
   }))
 })
