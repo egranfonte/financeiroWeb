@@ -29,7 +29,7 @@ gulp.task('app.css', () => {
 
 gulp.task('app.js', () => {
   return  gulp.src('app/**/*.js')
-    .pipe(babel({presets: ['env']}))
+    .pipe(babel({presets: ['env']}))//vai converter para ser compativel com todos os browsers
     .pipe(uglify())
     .pipe(concat('app.min.js'))
     .pipe(gulp.dest('public/assets/js'))
@@ -39,6 +39,4 @@ gulp.task('app.assets', () => {
   return gulp.src('assets/**/*.*')
     .pipe(gulp.dest('public/assets'))
 })
-
-
 

@@ -1,5 +1,6 @@
 angular.module('financeiroWeb', [
-    'ui.router',
-    'ngAnimate',
-    'toastr'
-  ])
+  'ui.router',
+  'ngAnimate',
+  'toastr'
+
+])
