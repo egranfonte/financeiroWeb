@@ -6,11 +6,17 @@ const bodyParser = require('body-parser' )
 //framework web express
 const express = require('express')
 const server = express()
+//cors
+const allowCors = require('./cors')
+
 //para toda requisicao que chegar dentro do backend será passado por esse middleware urlencoded
 server.use(bodyParser.urlencoded({extended: true}))
 //outro middleware para fazer o parse do json
 server.use(bodyParser.json())
+//
+server.use(allowCors)
 
+//escutando porta
 server.listen(porta, function(){
     console.log(` BACKEND está rodando na porta ${porta}.`)
 })
