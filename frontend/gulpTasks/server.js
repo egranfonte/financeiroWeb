@@ -7,7 +7,7 @@ const webserver = require('gulp-webserver')
   */
 
 gulp.task('watch', function() {
-    watch('app/**/*.html', () => gul.start('app.html'))
+    watch('app/**/*.html', () => gulp.start('app.html'))
     watch('app/**/*.css', () => gulp.start('app.css'))
     watch('app/**/*.js', () => gulp.start('app.js'))
     watch('assets/**/*.*', () => gulp.start('app.assets'))
