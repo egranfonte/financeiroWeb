@@ -1,13 +1,16 @@
-//meu componente contentHeader
-angular.module('financeiroWeb').component('contentHeader', {
-    bindings :{
-        name: '@',
-        small: '@',
-    },
-    template: `
-    <section class="content-header">
-        <h1> {{ $ctrl.name }} <small> {{ $ctrl.small }} </small></h1>
-    </section>
-    `
-})
+(function() {
+    //meu componente contentHeader
+    angular.module('financeiroWeb').component('contentHeader', {
+        bindings :{
+            name: '@',
+            small: '@',
+        },
+        template: `
+        <section class="content-header">
+            <h1> {{ $ctrl.name }} <small> {{ $ctrl.small }} </small></h1>
+        </section>
+        `
+    })
+})()
+
 
