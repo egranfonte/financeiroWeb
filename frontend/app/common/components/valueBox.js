@@ -10,7 +10,9 @@ angular.module('financeiroWeb').component('valueBox', {
     controller: [
         'gridSystem',
         function(gridSystem){
-            this.gridSystem  = gridSystem.toCssClasses(this.grid)
+            this.$onInit = () => {
+                this.gridClasses  = gridSystem.toCssClasses(this.grid)   
+            }
         }
     ],
     template:`
