@@ -19,8 +19,10 @@ const cicloPagamentoSchema = new mongoose.Schema({
     name: {type: String, require: true},
     month: { type: Number, min: 1, max: 12, require: true },
     year: { type: Number, min: 1900, max: 2100, require: true},
+    /*date: {type: date, default: Date.now },*/
     credits: [creditoSchema],
-    debts: [debitoSchema]
+    debts: [debitoSchema],
+    
 })
 
 //exports | exportar o modulo "model" cicloPagamentoSchema
